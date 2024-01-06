@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(https://img.freepik.com/free-photo/plain-smooth-green-wall-texture_53876-129746.jpg?size=626&ext=jpg&ga=GA1.1.364953376.1702403438&semt=ais);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #fff;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color:#32302e;
+}
+
+
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #32302e;
+    border: 2px solid #32302e;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    color:#32302e;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.content span{
+    color: #32302e;
+    font-size: 65px
+}
+
+
+
+ .simple{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    background-color: #3a3838;
+    color: #fff;
+ }
+ .img1{
+    flex:1;
+    gap:20px;
+    
+
+ }
+ .content1{
+    flex:1;
+    
+ }
+ .content1 h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+
+ }
+ .content1 p{
+    font-style: italic;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .finacaces{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #3a3838;
+    color: #fff;
+   
+ }
+ .content2{
+   
+   flex:2
+ }
+ .img2{
+  flex:1
+   
+
+ }
+ 
+ .content2 h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+
+ }
+ .content2 p{
+    font-style: italic;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+ }
+ .middle{
+    display:flex;
+    width:1500px;
+    height:166px;
+    align-items: center;
+    color:rgb(137, 125, 125);
+   
+    justify-content: center;
+    padding: 15px 10px;
+    margin-right: 159px;
+    background-color: #32302e;
+
+ }
+ [placeholder="Enter your email"]{
+    font-size: 15px;
+    font-style: bold;
+ }
+ .middle button{
+    color:#fff;
+    background-color: rgb(107, 216, 57);
+    border-radius: 2px solid #000;
+ }
+ .text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    background-color: #3a3838;
+    color: #fff;
+ }
+ .text h1{
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    font-style: bold;
+ }
+ .text p{
+    font-size: 20px;
+    font-style: italic;
+    align-items: center;
+    justify-content: center;
+
+ }
+ 
+
+ .card{
+    display: flex;
+    align-content: center;
+    justify-content:space-between;
+    margin-top: 10px;
+    padding: 20px 5% ;
+    min-height: 100px;
+    column-gap: 5px;
+    gap: 25px;
+    
+}
+.card img{
+
+    height: 50px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+
+    
+}
+.card1{
+    flex:1;
+    background-color: rgb(48, 47, 47);
+    color: white;
+    padding: 10px 4%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 1px solid #090909;
+
+}
+
+.card1 p{
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 40px;
+    min-height: 150px;
+
+}
+
+.bank-logo{
+    display: flex;
+}
+.bank-logo h2{
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    font-style: bold;
+}
+.bank-logo p{
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    font-style: bold;
+}
+
+.menu{
+    display: flex;
+    align-content: center;
+}
+.menu h3{
+    font-size: 18px;
+    font-style: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.menu ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    min-height: 12px;
+}
+
+ .menu ul li a{
+    color:#000;
+    text-decoration: none;
+ }
+
+ .company{
+    display: flex;
+}
+.company h3{
+    font-size: 18px;
+    font-style: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.company ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    min-height: 12px;
+}
+
+ .company ul li a{
+    color:#000;
+    text-decoration: none;
+ }
+
+ .support{
+    display: flex;
+}
+.support h3{
+    font-size: 18px;
+    font-style: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.support ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    min-height: 12px;
+}
+
+ .support ul li a{
+    color:#000;
+    text-decoration: none;
+ }
+
+
+
